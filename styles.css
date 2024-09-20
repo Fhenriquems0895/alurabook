@@ -1,0 +1,25 @@
+@import url(styles/headr.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
+
+:root{
+    --cor-fundo:#ebecee;
+    --laranja: #eb9b00;
+    --azul-degrade:rgb(34, 36, 170);
+    --azul:#002f52;
+    --branco:#ffffff;
+    
+    --font-principal:'poppins';
+    --font-secundaria:'josefin sans';
+
+}
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
